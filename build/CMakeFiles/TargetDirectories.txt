@@ -1,0 +1,7 @@
+/home/rubs/workspace/c++/old-projects-new/snake-engine/build/CMakeFiles/install/strip.dir
+/home/rubs/workspace/c++/old-projects-new/snake-engine/build/CMakeFiles/install/local.dir
+/home/rubs/workspace/c++/old-projects-new/snake-engine/build/CMakeFiles/install.dir
+/home/rubs/workspace/c++/old-projects-new/snake-engine/build/CMakeFiles/list_install_components.dir
+/home/rubs/workspace/c++/old-projects-new/snake-engine/build/CMakeFiles/rebuild_cache.dir
+/home/rubs/workspace/c++/old-projects-new/snake-engine/build/CMakeFiles/edit_cache.dir
+/home/rubs/workspace/c++/old-projects-new/snake-engine/build/CMakeFiles/snake-engine.dir
