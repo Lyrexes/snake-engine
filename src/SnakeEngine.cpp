@@ -140,11 +140,11 @@ sf::Color SnakeEngine::getSnakeColor() {
   return m_snake.getColor();
 }
 
-void SnakeEngine::setSnakeColor(const sf::Color& newColor) {
-  m_snake.setColor(newColor);
+void SnakeEngine::setSnakeColor(uint r, uint g, uint b, uint a) {
+  m_snake.setColor(sf::Color(r, g, b, a));
 }
-void SnakeEngine::setAppleColor(const sf::Color& newColor) {
-  m_apple.setColor(newColor);
+void SnakeEngine::setAppleColor(uint r, uint g, uint b, uint a) {
+  m_apple.setColor(sf::Color(r, g, b, a));
 }
 
 void SnakeEngine::respawnSnake() {
@@ -194,3 +194,11 @@ bool SnakeEngine::isPositionInBounds(uint x, uint y) {
   return x < m_field.getCellCount().x &&
          y < m_field.getCellCount().y;
 }
+
+
+
+boost::python::BOOST_PYTHON_MODULE(classes)
+{
+  boos::python::class_<SnakeEngine>("SnakeEngine", init<>())
+    ;
+};

@@ -17,7 +17,8 @@ find_package(SFML 2.5.1
   COMPONENTS 
     system window graphics network audio REQUIRED
 )
-
+find_package(Boost COMPONENTS python REQUIRED)
+find_package(PythonLibs 2.7 REQUIRED)
 # Set include directory search paths
 
 
@@ -34,7 +35,6 @@ target_compile_features(snake-engine PRIVATE cxx_std_17)
 
 # Link executable to required SFML libraries
 target_link_libraries(snake-engine sfml-graphics)
-
+# Set up the libraries and header search paths for this target
 # Install target
 install(TARGETS snake-engine DESTINATION bin)
-

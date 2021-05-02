@@ -1,5 +1,6 @@
 #pragma once
 #include<SFML/Graphics.hpp>
+#include<boost/python.hpp>
 #include"Field.hpp"
 #include"Snake.hpp"
 #include"Apple.hpp"
@@ -12,8 +13,8 @@ class SnakeEngine {
     void sendInput(Direction direction);
     void sendInput(char direction); 
     void listenKeyInput();
-    void setSnakeColor(const sf::Color& newColor);
-    void setAppleColor(const sf::Color& newColor);
+    void setSnakeColor(uint r, uint g, uint b, uint a=255);
+    void setAppleColor(uint r, uint g, uint b, uint a=255);
     void setFramesLimit(uint framesPerSecond) noexcept;
     sf::Color getAppleColor();
     void setCellCount(uint x, uint y);
