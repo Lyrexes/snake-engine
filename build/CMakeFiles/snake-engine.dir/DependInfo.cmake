@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/rubs/workspace/c++/old-projects-new/snake-engine/src/SimpleRect.cpp" "CMakeFiles/snake-engine.dir/SimpleRect.cpp.o" "gcc" "CMakeFiles/snake-engine.dir/SimpleRect.cpp.o.d"
   "/home/rubs/workspace/c++/old-projects-new/snake-engine/src/Snake.cpp" "CMakeFiles/snake-engine.dir/Snake.cpp.o" "gcc" "CMakeFiles/snake-engine.dir/Snake.cpp.o.d"
   "/home/rubs/workspace/c++/old-projects-new/snake-engine/src/SnakeEngine.cpp" "CMakeFiles/snake-engine.dir/SnakeEngine.cpp.o" "gcc" "CMakeFiles/snake-engine.dir/SnakeEngine.cpp.o.d"
+  "/home/rubs/workspace/c++/old-projects-new/snake-engine/src/genetic-cnn/NeuralNetwork.cpp" "CMakeFiles/snake-engine.dir/genetic-cnn/NeuralNetwork.cpp.o" "gcc" "CMakeFiles/snake-engine.dir/genetic-cnn/NeuralNetwork.cpp.o.d"
   "/home/rubs/workspace/c++/old-projects-new/snake-engine/src/main.cpp" "CMakeFiles/snake-engine.dir/main.cpp.o" "gcc" "CMakeFiles/snake-engine.dir/main.cpp.o.d"
   )
 

@@ -318,6 +318,30 @@ SnakeEngine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake-engine.dir/build.make CMakeFiles/snake-engine.dir/SnakeEngine.cpp.s
 .PHONY : SnakeEngine.cpp.s
 
+genetic-cnn/NeuralNetwork.o: genetic-cnn/NeuralNetwork.cpp.o
+.PHONY : genetic-cnn/NeuralNetwork.o
+
+# target to build an object file
+genetic-cnn/NeuralNetwork.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake-engine.dir/build.make CMakeFiles/snake-engine.dir/genetic-cnn/NeuralNetwork.cpp.o
+.PHONY : genetic-cnn/NeuralNetwork.cpp.o
+
+genetic-cnn/NeuralNetwork.i: genetic-cnn/NeuralNetwork.cpp.i
+.PHONY : genetic-cnn/NeuralNetwork.i
+
+# target to preprocess a source file
+genetic-cnn/NeuralNetwork.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake-engine.dir/build.make CMakeFiles/snake-engine.dir/genetic-cnn/NeuralNetwork.cpp.i
+.PHONY : genetic-cnn/NeuralNetwork.cpp.i
+
+genetic-cnn/NeuralNetwork.s: genetic-cnn/NeuralNetwork.cpp.s
+.PHONY : genetic-cnn/NeuralNetwork.s
+
+# target to generate assembly for a file
+genetic-cnn/NeuralNetwork.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake-engine.dir/build.make CMakeFiles/snake-engine.dir/genetic-cnn/NeuralNetwork.cpp.s
+.PHONY : genetic-cnn/NeuralNetwork.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -373,6 +397,9 @@ help:
 	@echo "... SnakeEngine.o"
 	@echo "... SnakeEngine.i"
 	@echo "... SnakeEngine.s"
+	@echo "... genetic-cnn/NeuralNetwork.o"
+	@echo "... genetic-cnn/NeuralNetwork.i"
+	@echo "... genetic-cnn/NeuralNetwork.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/snake-engine.dir/Snake.cpp.o.d"
   "CMakeFiles/snake-engine.dir/SnakeEngine.cpp.o"
   "CMakeFiles/snake-engine.dir/SnakeEngine.cpp.o.d"
+  "CMakeFiles/snake-engine.dir/genetic-cnn/NeuralNetwork.cpp.o"
+  "CMakeFiles/snake-engine.dir/genetic-cnn/NeuralNetwork.cpp.o.d"
   "CMakeFiles/snake-engine.dir/main.cpp.o"
   "CMakeFiles/snake-engine.dir/main.cpp.o.d"
   "snake-engine"

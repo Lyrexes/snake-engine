@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "CMakeFiles/3.20.1/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.20.1/CMakeSystem.cmake"
+  "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.20.2/CMakeSystem.cmake"
   "/home/rubs/workspace/c++/old-projects-new/snake-engine/src/CMakeLists.txt"
   "/usr/local/lib/cmake/SFML/SFMLConfig.cmake"
   "/usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake"

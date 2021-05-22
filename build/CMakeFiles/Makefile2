@@ -81,12 +81,12 @@ clean: CMakeFiles/snake-engine.dir/clean
 CMakeFiles/snake-engine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake-engine.dir/build.make CMakeFiles/snake-engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake-engine.dir/build.make CMakeFiles/snake-engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rubs/workspace/c++/old-projects-new/snake-engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target snake-engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rubs/workspace/c++/old-projects-new/snake-engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target snake-engine"
 .PHONY : CMakeFiles/snake-engine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/snake-engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rubs/workspace/c++/old-projects-new/snake-engine/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rubs/workspace/c++/old-projects-new/snake-engine/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/snake-engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rubs/workspace/c++/old-projects-new/snake-engine/build/CMakeFiles 0
 .PHONY : CMakeFiles/snake-engine.dir/rule
